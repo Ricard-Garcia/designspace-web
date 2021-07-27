@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Brossa";
+  src: url("../fonts/Brossa-Variable.ttf") format("truetype");
+  font-weight: 15 145;
+  font-width: 70 200;
+  font-style: normal;
+}
+
+* {
+  font-family: "Brossa";
+}
+
+// Header
+h1 {
+  font-size: 60px;
+  font-variation-settings: "wght" 40, "wdth" 200;
+  text-transform: uppercase;
+}
+
+//Main
+#designspace {
+  color: whitesmoke;
+  font-size: 150px;
+}
+
+// Footer
+p {
+  font-size: 12px;
+  color: whitesmoke;
+  margin: 0;
+  font-variation-settings: "wght" 40, "wdth" 200;
+}

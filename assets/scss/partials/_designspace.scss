@@ -1,0 +1,17 @@
+#designspace {
+  padding: 40px;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.057);
+
+  #testWord {
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: white;
+    background-color: transparent;
+    outline: none;
+    border: none;
+  }
+}

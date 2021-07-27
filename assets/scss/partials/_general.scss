@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  //   outline: blue 2px solid;
+}
+
+body {
+  padding: 50px;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+
+  header {
+    height: 70px;
+  }
+
+  main {
+    flex-grow: 1;
+    padding: 40px 0;
+  }
+
+  footer {
+    height: 30px;
+  }
+}
