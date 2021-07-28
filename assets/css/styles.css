@@ -11,7 +11,7 @@ body {
   background-color: black;
 }
 body header {
-  height: 70px;
+  height: fit-content;
 }
 body main {
   flex-grow: 1;
@@ -22,7 +22,7 @@ body footer {
 }
 
 #designspace {
-  padding: 40px;
+  padding: 40px 0;
   height: 100%;
   background-color: rgba(255, 255, 255, 0.057);
 }
@@ -51,6 +51,7 @@ body footer {
 
 h1 {
   font-size: 60px;
+  line-height: 54px;
   font-variation-settings: "wght" 40, "wdth" 200;
   text-transform: uppercase;
 }
